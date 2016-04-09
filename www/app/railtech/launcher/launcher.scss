@@ -1,0 +1,24 @@
+
+.launcher {
+	.module-card {
+		max-width:250px;
+		max-height: 170px;
+		width: 40vw;
+		margin: 2.5%;
+		float: left;
+	}
+}
+
+@media (max-width: 580px) {
+.launcher {
+	.module-card {
+		width: 45vw;
+		height: 35vw;
+		margin: 2.5%;
+		float: left;
+		overflow: hidden;
+	}
+}
+}
+
+
