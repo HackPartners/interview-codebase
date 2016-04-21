@@ -14,7 +14,8 @@ angular.module('railtech', [
 
         // Internal
         'staffrepay',
-        'repay'])
+        'repay',
+        'thingsToDo'])
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
